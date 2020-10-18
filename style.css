@@ -8,6 +8,8 @@ h2 {
 
 h3 {
     color: #6959af;
+    margin-top: 60px;
+    margin-left: 10px;
 }
 
 a {
@@ -19,3 +21,22 @@ a:hover {
     color: white;
 }
 
+* p {
+    margin-left: 40px;
+}
+
+#desc div>p {
+    color: #d1152e;
+}
+
+#ori div {
+    color: #1A48D1;
+}
+
+#ori p {
+    color: rgb(233, 13, 178);
+}
+
+#filler h3~p {
+    color: rgb(58, 206, 22);
+}
