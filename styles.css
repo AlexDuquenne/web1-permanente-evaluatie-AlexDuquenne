@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul li {
+    padding: 0.5em;
+    margin: 2em;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.intro {
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 2px solid #e76c07;
+    border-left: 2px solid #e76c07;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-content: center;
+}
+
+.intro h2 {
+    position: absolute;
+}
+
+.intro img {
+    width: 20%;
+
+}
+
+.intro p {
+    margin: 10px;
+    ;
+}
+
+.contentBox {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-content: center;
+}
+
+.contentBox>div {
+    margin: 20px;
+    text-align: center;
+}
+
+
+.contentBox img {
+    width: 50%;
+}
+
+.contentBox>* {
+    text-align: center;
+}
+
+.contentBox h3 {
+    display: flex;
+    position: absolute;
+    width: 30%;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
+}
