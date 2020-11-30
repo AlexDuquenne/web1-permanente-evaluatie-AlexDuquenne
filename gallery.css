@@ -1,0 +1,19 @@
+/** Op https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp gevonden**/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 4px;
+}
+
+.col {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0px 4px;
+}
+
+.col img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}

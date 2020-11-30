@@ -1,5 +1,6 @@
+/** general **/
 body {
-    margin: 0;
+    margin: 5vw;
     font-family: sans-serif;
 }
 
@@ -21,58 +22,12 @@ li a {
     text-decoration: none;
 }
 
-.intro {
-    margin: 20px;
-    padding: 10px;
-    border-bottom: 2px solid #e76c07;
-    border-left: 2px solid #e76c07;
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-content: center;
+footer {
+    margin-top: 25px;
 }
 
-.intro h2 {
-    position: absolute;
-}
-
-.intro img {
-    width: 20%;
-
-}
-
-.intro p {
-    margin: 10px;
-    ;
-}
-
-.contentBox {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    align-content: center;
-}
-
-.contentBox>div {
-    margin: 20px;
-    text-align: center;
-}
-
-
-.contentBox img {
-    width: 50%;
-}
-
-.contentBox>* {
-    text-align: center;
-}
-
-.contentBox h3 {
-    display: flex;
-    position: absolute;
-    width: 30%;
-    margin: 0;
-    padding: 1em;
-    text-align: center;
-    justify-content: center;
+footer a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
 }

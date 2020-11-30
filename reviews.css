@@ -1,0 +1,29 @@
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reviews h3 {
+    margin-bottom: 30px;
+}
+
+.reviews img {
+    max-width: 20vw;
+}
+
+.reviews p {
+    position: relative;
+    align-content: flex-end;
+    padding-left: 20px;
+    width: 75%;
+    float: right;
+    clear: none;
+    box-sizing: border-box;
+}
+
+.rev1, .rev2, .rev3, .rev4, .rev5 {
+    margin: 20px;
+}

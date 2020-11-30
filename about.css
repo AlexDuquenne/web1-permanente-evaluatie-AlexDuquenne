@@ -1,0 +1,13 @@
+.who {
+    display: flex;
+    position: relative;
+}
+
+.who h3 {
+ position: absolute;
+}
+
+.who p {
+    margin: 20px;
+    padding-top: 30px;
+}
